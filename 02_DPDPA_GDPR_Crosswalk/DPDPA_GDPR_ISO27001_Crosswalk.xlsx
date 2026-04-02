@@ -1,0 +1,7 @@
+DPDPA Section,GDPR Article,Requirement Description,ISO 27001 Control,Mapped Control ID,Compliance Status,Gap / Action Needed
+Section 4,Art 5,Lawful processing of personal data,A.5.1,A.5.1,Implemented,None
+Section 5,Art 6,Consent & notice,A.5.2,A.5.2,Implemented,Add consent withdrawal mechanism
+Section 6,Art 7,Rights of data principal,A.18.1,A.18.1,Partially,Build DSAR process
+Section 8,Art 32,Security safeguards,A.8 + A.12,Multiple,Implemented,None
+Section 9,Art 33,Breach notification (72 hrs),A.16.1,A.16.1,Implemented,None
+Section 12,Art 28,Data Processor obligations,A.15.1,A.15.1,In Progress,Update vendor contracts
