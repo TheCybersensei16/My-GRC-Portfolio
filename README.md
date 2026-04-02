@@ -13,4 +13,4 @@ Live demonstration of enterprise GRC deliverables built under CISO mentorship.
 - [03_Risk_Register_FAIR_Model](03_Risk_Register_FAIR_Model) → Quantitative risk register with Monte Carlo simulation
 - [04_Mock_Internal_Audit_Report](04_Mock_Internal_Audit_Report) → Professional audit report for fintech
 
-** Thanks **
+**Thanks**
