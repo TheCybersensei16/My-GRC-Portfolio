@@ -1,0 +1,15 @@
+Control ID,Control Name,Clause,Applicability,Justification,Implementation Status,Owner,Evidence / Remarks
+A.5.1,Policies for information security,5.1,Y,Mandatory for ISMS & DPDPA,Implemented,CISO,InfoSec_Policy_v1.pdf
+A.5.2,Information security roles & responsibilities,5.2,Y,RACI required for accountability,Implemented,HR + CISO,RACI_Matrix.xlsx
+A.5.3,Segregation of duties,5.3,Y,Prevent fraud in fintech operations,In Progress,IT + Finance,SOP under review
+A.6.1,Screening,6.1,Y,Background verification for sensitive roles,Implemented,HR,Background_Check_Process.docx
+A.6.2,Terms and conditions of employment,6.2,Y,NDA + confidentiality clauses,Implemented,HR,Employment_Contract_Template
+A.8.1,Asset management,8.1,Y,Inventory of all data assets,Implemented,IT,Asset_Register.xlsx
+A.8.2,Privileged access rights,8.2,Y,Critical for production systems,Partially,IT,PAM Tool (CyberArk trial)
+A.8.3,Information security awareness,8.3,Y,Quarterly training mandatory,Implemented,HR,Training_Attendance_Records
+A.12.4,Logging and monitoring,12.4,Y,Audit trails for compliance,Implemented,SOC,SIEM logs (Wireshark samples)
+A.13.1,Network security controls,13.1,Y,Firewall + segmentation,Implemented,IT,Network Diagram v1
+A.14.2,Secure system engineering,14.2,Y,Secure SDLC for in-house apps,In Progress,Dev Team,-
+A.16.1,Management of information security incidents,16.1,Y,Incident response plan,Implemented,CISO,IR_Plan_v1.pdf
+A.17.1,Information backup,17.1,Y,Daily backups with DPDPA retention,Implemented,IT,Backup Policy & Test Report
+A.18.1,Compliance with legal and contractual requirements,18.1,Y,DPDPA + GDPR readiness,Implemented,Legal + CISO,Compliance_Register.xlsx
