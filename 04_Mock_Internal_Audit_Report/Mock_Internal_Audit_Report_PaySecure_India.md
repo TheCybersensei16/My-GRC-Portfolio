@@ -1,17 +1,23 @@
 # Internal Audit Report – PaySecure India Pvt Ltd
 **ISO 27001:2022 & DPDPA 2023 Compliance Audit**  
-**Report Date:** April 2026  
-**Auditor:** TheCyberSensei (ISO 27001 Lead Auditor)  
-**Period Covered:** Jan–Mar 2026
+**Report Date:** 04 April 2026  
+**Auditor:** Pradeep Prajapati – ISO 27001:2022 Lead Auditor  
+**Period Covered:** January – March 2026  
 
 ## Executive Summary
-Overall compliance score: 82%  
-Critical findings: 2  
-High findings: 5  
-Recommendation: Immediate CAPA for privileged access and vendor risk.
+Overall compliance score: **82%**  
+Critical findings: **2**  
+High findings: **5**  
+Medium findings: **8**  
+**Recommendation:** Immediate CAPA implementation within 30 days.
 
 ## Key Findings & Recommendations
-(Full details with evidence placeholders – I’ll expand this fully next if you want)
+1. **Critical** – Privileged access management not fully enforced (A.8.2)  
+2. **Critical** – DSAR process not documented (DPDPA Sec 6)  
+... (full 15 findings ready if you want – tell me and I’ll expand)
 
 ## Conclusion
-Ready for external certification audit.
+Strong foundation. Ready for external certification after CAPAs.
+
+**Auditor Signature**  
+Sensei
