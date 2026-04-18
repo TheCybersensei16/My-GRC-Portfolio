@@ -1,35 +1,36 @@
-Control ID,Control Name,Clause,Applicability,Justification,Implementation Status,Owner,Evidence / Remarks
-A.5.1,Policies for information security,5.1,Y,Mandatory for ISMS & DPDPA,Implemented,CISO,InfoSec_Policy_v1.pdf
-A.5.2,Information security roles & responsibilities,5.2,Y,RACI for accountability,Implemented,HR + CISO,RACI_Matrix.xlsx
-A.5.3,Segregation of duties,5.3,Y,Prevent fraud in fintech,In Progress,IT + Finance,SOP under review
-A.5.4,Management responsibilities,5.4,Y,Board-level oversight,Implemented,CISO,Board Meeting Minutes
-A.5.5,Information security in project management,5.5,Y,Secure SDLC mandatory,In Progress,PMO,Project Checklist
-A.6.1,Screening,6.1,Y,Background checks,Implemented,HR,Background_Check_Process.docx
-A.6.2,Terms and conditions of employment,6.2,Y,NDA + confidentiality,Implemented,HR,Employment_Contract_Template
-A.6.3,Termination of employment,6.3,Y,Immediate access revocation,Implemented,HR,Offboarding SOP
-A.7.1,Prior to employment,7.1,Y,Background verification,Implemented,HR,-
-A.7.2,During employment,7.2,Y,Confidentiality agreements,Implemented,HR,NDA signed
-A.8.1,Asset management,8.1,Y,Inventory of all data assets,Implemented,IT,Asset_Register.xlsx
-A.8.2,Privileged access rights,8.2,Y,Critical for production systems,Partially,IT,PAM Tool (CyberArk trial)
-A.8.3,Information security awareness,8.3,Y,Quarterly training,Implemented,HR,Training_Attendance_Records
-A.8.4,Return of assets,8.4,Y,Asset return on exit,Implemented,IT,Exit Checklist
-A.9.1,Business requirements of access control,9.1,Y,Least privilege principle,Implemented,IT,Access Policy
-A.9.2,Access rights,9.2,Y,Regular access review,Partially,IT,Quarterly review pending
-A.10.1,Cryptographic controls,10.1,Y,Encryption for DPDPA data,Implemented,IT,TLS 1.3 + AES-256
-A.11.1,Physical security perimeter,11.1,Y,Office access control,Implemented,Admin,Biometric + CCTV
-A.11.2,Supporting utilities,11.2,Y,UPS + fire suppression,Implemented,Facilities,Test reports
-A.12.1,Operational procedures,12.1,Y,Documented change management,Implemented,IT,Change Log
-A.12.2,Change management,12.2,Y,Approved changes only,Implemented,IT,-
-A.12.3,Capacity management,12.3,Y,Resource monitoring,Implemented,IT,Monitoring dashboard
-A.12.4,Logging and monitoring,12.4,Y,Audit trails for compliance,Implemented,SOC,SIEM logs
-A.12.5,Control of operational software,12.5,Y,Approved software only,Implemented,IT,-
-A.12.6,Technical vulnerability management,12.6,Y,Monthly patching,Implemented,IT,Patch reports
-A.13.1,Network security controls,13.1,Y,Firewall + segmentation,Implemented,IT,Network Diagram
-A.13.2,Security of network services,13.2,Y,Secure configuration,Implemented,IT,-
-A.14.1,Security requirements analysis,14.1,Y,Requirements before development,Implemented,Dev + Sec,-
-A.14.2,Secure system engineering,14.2,Y,Secure SDLC,In Progress,Dev Team,-
-A.15.1,Information security in supplier relationships,15.1,Y,Vendor risk assessment (TPRM),In Progress,Procurement,TPRM process under review
-A.16.1,Management of information security incidents,16.1,Y,Incident response plan,Implemented,CISO,IR_Plan_v1.pdf
-A.16.2,Learning from information security incidents,16.2,Y,Post-incident review,Implemented,CISO,Lessons Learned Log
-A.17.1,Information backup,17.1,Y,Daily backups with DPDPA retention,Implemented,IT,Backup Policy & Test Report
-A.18.1,Compliance with legal and contractual requirements,18.1,Y,DPDPA + GDPR readiness,Implemented,Legal + CISO,Compliance_Register.xlsx
+| Control ID | Control Name                                            | Clause | Applicability | Justification                                 | Implementation Status | Owner         | Evidence / Remarks                         |
+|------------|---------------------------------------------------------|--------|---------------|-----------------------------------------------|-----------------------|---------------|--------------------------------------------|
+| A.5.1      | Policies for information security                       | 5.1    | Y             | Mandatory for ISMS & DPDPA                    | Implemented           | CISO          | InfoSec_Policy_v1.pdf                      |
+| A.5.2      | Information security roles & responsibilities           | 5.2    | Y             | RACI for accountability                        | Implemented           | HR + CISO     | RACI_Matrix.xlsx                           |
+| A.5.3      | Segregation of duties                                   | 5.3    | Y             | Prevent fraud in fintech                       | In Progress           | IT + Finance  | SOP under review                            |
+| A.5.4      | Management responsibilities                              | 5.4    | Y             | Board-level oversight                          | Implemented           | CISO          | Board Meeting Minutes                      |
+| A.5.5      | Information security in project management              | 5.5    | Y             | Secure SDLC mandatory                          | In Progress           | PMO           | Project Checklist                           |
+| A.6.1      | Screening                                               | 6.1    | Y             | Background checks                              | Implemented           | HR            | Background_Check_Process.docx              |
+| A.6.2      | Terms and conditions of employment                      | 6.2    | Y             | NDA + confidentiality                          | Implemented           | HR            | Employment_Contract_Template               |
+| A.6.3      | Termination of employment                               | 6.3    | Y             | Immediate access revocation                    | Implemented           | HR            | Offboarding SOP                             |
+| A.7.1      | Prior to employment                                     | 7.1    | Y             | Background verification                        | Implemented           | HR            | -                                          |
+| A.7.2      | During employment                                       | 7.2    | Y             | Confidentiality agreements                     | Implemented           | HR            | NDA signed                                 |
+| A.8.1      | Asset management                                        | 8.1    | Y             | Inventory of all data assets                   | Implemented           | IT            | Asset_Register.xlsx                        |
+| A.8.2      | Privileged access rights                                | 8.2    | Y             | Critical for production systems                | Partially             | IT            | PAM Tool (CyberArk trial)                  |
+| A.8.3      | Information security awareness                          | 8.3    | Y             | Quarterly training                             | Implemented           | HR            | Training_Attendance_Records                |
+| A.8.4      | Return of assets                                        | 8.4    | Y             | Asset return on exit                           | Implemented           | IT            | Exit Checklist                             |
+| A.9.1      | Business requirements of access control                 | 9.1    | Y             | Least privilege principle                      | Implemented           | IT            | Access Policy                              |
+| A.9.2      | Access rights                                           | 9.2    | Y             | Regular access review                          | Partially             | IT            | Quarterly review pending                   |
+| A.10.1     | Cryptographic controls                                  | 10.1   | Y             | Encryption for DPDPA data                      | Implemented           | IT            | TLS 1.3 + AES-256                          |
+| A.11.1     | Physical security perimeter                             | 11.1   | Y             | Office access control                          | Implemented           | Admin         | Biometric + CCTV                           |
+| A.11.2     | Supporting utilities                                    | 11.2   | Y             | UPS + fire suppression                         | Implemented           | Facilities    | Test reports                               |
+| A.12.1     | Operational procedures                                  | 12.1   | Y             | Documented change management                   | Implemented           | IT            | Change Log                                 |
+| A.12.2     | Change management                                       | 12.2   | Y             | Approved changes only                          | Implemented           | IT            | -                                          |
+| A.12.3     | Capacity management                                     | 12.3   | Y             | Resource monitoring                            | Implemented           | IT            | Monitoring dashboard                       |
+| A.12.4     | Logging and monitoring                                  | 12.4   | Y             | Audit trails for compliance                    | Implemented           | SOC           | SIEM logs                                  |
+| A.12.5     | Control of operational software                         | 12.5   | Y             | Approved software only                         | Implemented           | IT            | -                                          |
+| A.12.6     | Technical vulnerability management                      | 12.6   | Y             | Monthly patching                               | Implemented           | IT            | Patch reports                              |
+| A.13.1     | Network security controls                               | 13.1   | Y             | Firewall + segmentation                        | Implemented           | IT            | Network Diagram                            |
+| A.13.2     | Security of network services                            | 13.2   | Y             | Secure configuration                           | Implemented           | IT            | -                                          |
+| A.14.1     | Security requirements analysis                          | 14.1   | Y             | Requirements before development                | Implemented           | Dev + Sec     | -                                          |
+| A.14.2     | Secure system engineering                               | 14.2   | Y             | Secure SDLC                                    | In Progress           | Dev Team      | -                                          |
+| A.15.1     | Information security in supplier relationships          | 15.1   | Y             | Vendor risk assessment (TPRM)                  | In Progress           | Procurement   | TPRM process under review                  |
+| A.16.1     | Management of information security incidents            | 16.1   | Y             | Incident response plan                         | Implemented           | CISO          | IR_Plan_v1.pdf                             |
+| A.16.2     | Learning from information security incidents            | 16.2   | Y             | Post-incident review                            | Implemented           | CISO          | Lessons Learned Log                        |
+| A.17.1     | Information backup                                      | 17.1   | Y             | Daily backups with DPDPA retention             | Implemented           | IT            | Backup Policy & Test Report                |
+| A.18.1     | Compliance with legal and contractual requirements      | 18.1   | Y             | DPDPA + GDPR readiness                         | Implemented           | Legal + CISO  | Compliance_Register.xlsx                   |
